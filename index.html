@@ -1,19 +1,59 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>S0UNDH3RM1T</title>
-        <link href="main.css" rel="stylesheet" type="text/css">
-        <script src="main.js"></script>
-        <script>
-            window.onload = FooterText
-        </script>
-    </head>
-    <body>
-        <H1>S0UNDH3RM1T</H1>
-        ...
+<html lang="en">
 
-        <div id="footer"/>
-    </body>
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>s0undh3rm1t</title>
+
+    <!-- Styles -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <!-- Scripts -->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        window.onload = FooterText
+    </script>
+</head>
+
+<body>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#pixel">pixel</a>
+        </li>
+    </ul>
+
+    <div id="content" class="tab-content">
+        <div class="tab-pane active" id="home">
+            <ul>
+                welcome
+            </ul>
+        </div>
+        <div class="tab-pane" id="pixel">
+            <ul>
+                pixel gallery
+            </ul>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small">
+        <div class=" footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="http://www.soundhermit.com">soundermit.com</a>
+        </div>
+    </footer>
+
+</body>
+
 </html>
