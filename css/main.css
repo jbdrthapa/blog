@@ -1,0 +1,15 @@
+body{
+    font-size: 48px;
+}
+
+.figure-caption{
+    font-size:50%;
+    text-transform: capitalize;
+}
+
+.img-thumbnail{
+    padding: .5rem;
+    border: 1px solid #868e96;
+    border-radius: 0;
+    background-color: #dddddd;
+}

@@ -11,7 +11,8 @@
 
     <!-- Styles -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/ekko-lightbox/dist/ekko-lightbox.css" rel="stylesheet" media="screen" />
+    <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -31,33 +32,67 @@
                     <div class="container">
                         <h1 class="display-4">welcome</h1>
                         <p class="lead">welcome to my blog!</p>
+                        <hr class="my-4">
                     </div>
                 </div>
             </div>
             <div class="tab-pane" id="pixel">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron jumbn-fluid mb-0">
                     <div class="container">
                         <h1 class="display-4">pixel shots</h1>
                         <p class="lead">welcome to the gallery</p>
                     </div>
                 </div>
+                <section class="bg-light py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4"><a href="gallery/IMG_20180826_144252.jpg" data-toggle="lightbox"
+                                    data-gallery="pixel-gallery">
+                                    <img src="gallery/thumbs/IMG_20180826_144252_thumb.jpg" class="img-fluid img-thumbnail"
+                                        alt="two yellow birds"></a>
+                                <figcaption class="figure-caption bg-primary text-center py-2">two yellow birds</figcaption>
+                            </div>
+                            <div class="col-md-4"><a href="gallery/IMG_20181108_141043.jpg" data-toggle="lightbox"
+                                    data-gallery="pixel-gallery">
+                                    <img src="gallery/thumbs/IMG_20181108_141043_thumb.jpg" class="img-fluid img-thumbnail"
+                                        alt="frozen flight"></a>
+                                <figcaption class="figure-caption bg-primary text-center py-2">frozen flight</figcaption>
+                            </div>
+                            <div class="col-md-4"><a href="gallery/IMG_20181111_124211.jpg" data-toggle="lightbox"
+                                    data-gallery="pixel-gallery">
+                                    <img src="gallery/thumbs/IMG_20181111_124211_thumb.jpg" class="img-fluid img-thumbnail"
+                                        alt="stacked elephants"></a>
+                                <figcaption class="figure-caption bg-primary text-center py-2">stacked elephants</figcaption>
+                            </div>
+                            <div class="col-md-4"><a href="gallery/IMG_20181121_225124.jpg" data-toggle="lightbox"
+                                    data-gallery="pixel-gallery">
+                                    <img src="gallery/thumbs/IMG_20181121_225124_thumb.jpg" class="img-fluid img-thumbnail"
+                                        alt="dark light"></a>
+                                <figcaption class="figure-caption bg-primary text-center py-2">dark light</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
+
+
+        <footer class="footer">
+            <div class=" footer-copyright text-center lead">© 2018 Copyright:
+                <a href="http://www.soundhermit.com">soundhermit.com</a>
+            </div>
+        </footer>
     </div>
 
-    <footer class="page-footer font-small">
-        <div class=" footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="http://www.soundhermit.com">soundermit.com</a>
-        </div>
-    </footer>
-    </div>
+
 
     <!-- Scripts -->
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="node_modules/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
