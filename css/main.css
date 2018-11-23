@@ -3,13 +3,16 @@ body{
 }
 
 .figure-caption{
-    font-size:50%;
-    text-transform: capitalize;
+    color:black;
+    background-image: linear-gradient(#e9ecf0, #f8f9fa, #e9ecf0);
+    border: 1px solid #e9ecf0;
+    border-radius: 0;
+}
+
+.figure-caption-details{
+    line-height : .4rem;
 }
 
 .img-thumbnail{
-    padding: .5rem;
-    border: 1px solid #868e96;
-    border-radius: 0;
-    background-color: #dddddd;
+    padding: .75rem;
 }
