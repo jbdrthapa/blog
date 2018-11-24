@@ -2,6 +2,11 @@ body{
     font-size: 38px;
 }
 
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
 .figure-caption{
     color:black;
     background-image: linear-gradient(#e9ecf0, #f8f9fa, #e9ecf0);
