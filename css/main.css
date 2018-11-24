@@ -1,5 +1,14 @@
-body{
-    font-size: 38px;
+body {
+    font-size: 28px;
+}
+
+a {
+    color:#868e96;
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
 }
 
 .flex-end {
@@ -7,17 +16,17 @@ body{
     align-items: flex-end;
 }
 
-.figure-caption{
+.figure-caption {
     color:black;
     background-image: linear-gradient(#e9ecf0, #f8f9fa, #e9ecf0);
     border: 1px solid #e9ecf0;
     border-radius: 0;
 }
 
-.figure-caption-details{
+.figure-caption-details {
     line-height : .4rem;
 }
 
-.img-thumbnail{
+.img-thumbnail {
     padding: .75rem;
 }
